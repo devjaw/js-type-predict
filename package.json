@@ -1,15 +1,15 @@
 {
-  "name": "predectarraytype",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "name": "js-type-predict",
+  "version": "0.1.0",
+  "description": "A utility for predicting JavaScript data types",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "jest",
-    "start": "nodemon index.js",
-    "build": "tsc --watch"
+  "test": "jest",
+  "start": "nodemon dist/index.js",
+  "build": "tsc --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jawad",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "jest": "^29.7.0",
@@ -17,7 +17,16 @@
     "ts-jest": "^29.2.5",
     "typescript": "^5.5.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devjaw/js-type-predict.git"
+  },
   "dependencies": {
     "dayjs": "^1.11.13"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
 }
