@@ -1,12 +1,12 @@
 {
   "name": "js-type-predict",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A utility for predicting JavaScript data types",
   "main": "dist/index.js",
   "scripts": {
-  "test": "jest",
-  "start": "nodemon dist/index.js",
-  "build": "tsc --watch"
+    "test": "jest",
+    "start": "nodemon dist/index.js",
+    "build": "tsc --watch"
   },
   "author": "Jawad",
   "license": "MIT",
