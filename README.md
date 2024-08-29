@@ -1,4 +1,3 @@
-```markdown
 # js-type-predict
 
 `js-type-predict` is a lightweight TypeScript/JavaScript utility for predicting the data type of an array of values. It can determine whether the values in the array are strings, numbers, booleans, dates, or datetime objects.
@@ -93,5 +92,5 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+
 
