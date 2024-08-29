@@ -1,6 +1,6 @@
 {
   "name": "js-type-predict",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A utility for predicting JavaScript data types",
   "main": "dist/index.js",
   "scripts": {

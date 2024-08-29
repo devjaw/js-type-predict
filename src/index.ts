@@ -1,20 +1,13 @@
 import  dayjs from 'dayjs'
 
-type valuesModel = {
-    values:any[],
-    treatZeroOneAsBoolean?: boolean // Optional, with a default of false
+export interface ValuesModel {
+    values: any[];
+    treatZeroOneAsBoolean?: boolean;
 }
 
 
-// let input : valuesModel = {
-//     values : [1, 2.2, 5]
-// }
 
-// var a = predictType (input)
-// console.log(a)
-
-
-export function predictType (model:valuesModel) {
+export function predictType (model:ValuesModel) {
     let isString = false;
     let isInt = false;
     let isFloat = false;
